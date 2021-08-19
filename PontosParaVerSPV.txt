@@ -1,0 +1,19 @@
+- O usuário tava inativo dia 10/02 e fez um pedido, depois de 10 min rodou a prévia mas ele não recebe porque está inativo. No dia que rodar a rotina de ativação, depois rodar a de prévia, ele vai receber a prévia do pedido do dia 10/02?
+- Um DI pode receber spv direto;
+- Previa executado primeiro,(antes qualificação) depois de 30 dias apuração, depois executado graduação(ambas são mensais). Ver se ta executando a previa, graduação antes da apuração.
+- Horário das rotinas;
+	Prévia: 10 min
+	Apuração: 
+	Qualificação: 
+	Cancelamento:
+	Ativação:
+	Graduação:
+
+- https://makertec.atlassian.net/browse/IF-1016: Não vai ter mais spv de apuração?
+
+- Estorno manual / Compra com SPV;
+
+- O usuário tá ativo e qualificado, ele recebe pontos na prévia e na apuração. Se o pedido for estornado, ele perde esses pontos;
+- O usuário ta inativo e não-qualificado, ele não recebe pontos de prévia nem de apuração. Quando rodar um entorno ele não recebe nada;
+
+- Estorno manual;

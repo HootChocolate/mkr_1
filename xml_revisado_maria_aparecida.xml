@@ -1,0 +1,165 @@
+<!-- <?xml version="1.0" encoding="ISO-8859-1"?>
+<request id='' user='Lucas.Endrissi' password='aWVxZl04Ez8=' encrypted='1' service='com.interpenn' port='CadastrarDa'>
+    <params>
+        <prCallMode>2</prCallMode>
+        <FlowName></FlowName>
+        <FlowInstanceID></FlowInstanceID>
+        <CodCli>0</CodCli>
+        <NomCli>
+            <![CDATA[MARIA APARECIDA MEI]]>
+        </NomCli>
+        <FilVin>27</FilVin>
+        <CgcCpf>85081678000107</CgcCpf>
+        <InsEst>ISENTO</InsEst>
+        <DatFdc>03/05/2006</DatFdc>
+        <EndCli>
+            <![CDATA[PRACA DOS TRES PODERES]]>
+        </EndCli>
+        <NenCli>155</NenCli>
+        <CplEnd>Casa</CplEnd>
+        <BaiCli>
+            <![CDATA[ZONA CIVICOADMINISTRATIVA]]>
+        </BaiCli>
+        <CepCli>70160900</CepCli>
+        <FonCli>6016161615</FonCli>
+        <FonCl2 isnull='1'/>
+        <IntNet>
+            <![CDATA[mariaaparecida@email.com]]>
+        </IntNet>
+        <EmaNfe isnull='1'/> -->
+        <CodRtr>0</CodRtr> Código do Regime de Trabalho
+	        <!-- 
+	        Código do Regime de Trabalho
+			    0 – Todos
+				1 – Simples Nacional
+				2 – Simples Nacional – excesso de sublimite de receita bruta
+				3 – Regime Normal -->
+
+        <RegEst>0</RegEst> Código do Regime Especial de Trabalho
+        <!-- Código do Regime Especial de Trabalho
+	        1 – Microempresa Municial
+			2 – Estimativa
+			3 – Sociedade de profissionais
+			4 – Cooperativa
+			5 – MEI
+			6 – ME EPP
+ -->
+
+        <DstOma>N</DstOma> <!-- ESTAVA SIM -->
+        <NomOma isnull='1'/> <!-- Nome da marca onde o cliente já trabalhou -->
+        <ParOdt isnull='1'/> <!-- Indicativo se possui parentesco com outro distribuidor da Nipponflex -->
+        <NomOdt isnull='1'/><!-- Nome do distribuidor parente -->
+        <GprOdt isnull='1'/><!-- Grau de parentesco -->
+        <!-- <CodPai>71998</CodPai> -->
+        <!-- <PenCad>N</PenCad> -->
+        <!-- <DatRes isnull='1'/> -->
+        <!-- <DetPen isnull='1'/> -->
+        <!-- <IdeInt>0</IdeInt> -->
+<!--         <ContasBancarias>
+            <line>
+                <CodBan>87</CodBan>
+                <CodAge>646</CodAge>
+                <NumCta>564654</NumCta> -->
+                <CodTcc></CodTcc> <!-- Tipo da conta bancária -->
+                <OpeCef></OpeCef>
+                <!-- <CgcCpf>56505404456000</CgcCpf> -->
+            <!-- </line> -->
+        <!-- </ContasBancarias> -->
+        <!-- <Socios> -->
+            <!-- <line> -->
+                <!-- <TipSoc>4</TipSoc> -->
+                <!-- <NomSoc> -->
+<!--                     <![CDATA[O PROCURADOR]]>
+                </NomSoc>
+                <NumCpf>50558648002</NumCpf>
+                <NumRgi>50558648002</NumRgi>
+                <OrgEmi>SSPPR</OrgEmi>
+                <DatExp>03/05/2000</DatExp>
+                <DatNsc>02/01/1990</DatNsc>
+                <LocNsc>TOKYO</LocNsc>
+                <EstNsc>EX</EstNsc> -->
+<!--                 <EndSoc>
+                    <![CDATA[RUA HOLANDA]]>
+                </EndSoc> -->
+                <!-- <NenSoc>155</NenSoc> -->
+                <!-- <CplEnd>Casa</CplEnd> -->
+                <!-- <BaiSoc> -->
+                    <!-- <![CDATA[CASCAVEL VELHO]]> -->
+                <!-- </BaiSoc> -->
+                <!-- <CidSoc>CASCAVEL</CidSoc> -->
+                <!-- <SigUfs>PR</SigUfs> -->
+                <!-- <CepSoc>85818320</CepSoc> -->
+                <!-- <FonCe1></FonCe1> -->
+                <!-- <FonRes></FonRes> -->
+                <!-- <FonCe2></FonCe2> -->
+                <!-- <IntNet></IntNet> -->
+                <!-- <NomCon> -->
+                    <!-- <![CDATA[Conjuge Procurador]]> -->
+                <!-- </NomCon> -->
+                <!-- <CpfCon>24779941075</CpfCon> -->
+                <!-- <NscCon>03/05/1988</NscCon> -->
+                <!-- <PosPro>S</PosPro> -->
+                <!-- <ValPro>03/05/2022</ValPro> -->
+                <!-- <RegBem>3</RegBem> -->
+                <!-- <NomCra></NomCra> -->
+                <!-- <QuaNeg>S</QuaNeg> -->
+                <!-- <TipDoc>0</TipDoc> -->
+                <!-- <PaiNsc>Brasileiro</PaiNsc> -->
+                <!-- <EstCiv>2</EstCiv> -->
+            <!-- </line> -->
+            <!-- <line> -->
+                <!-- <TipSoc>1</TipSoc> -->
+                <!-- <NomSoc> -->
+                    <!-- <![CDATA[MARIA APARECIDA]]> -->
+                <!-- </NomSoc> -->
+                <!-- <NumCpf>54090230055</NumCpf> -->
+                <!-- <NumRgi>54090230055</NumRgi> -->
+                <!-- <OrgEmi>SSPPR</OrgEmi> -->
+                <!-- <DatExp>03/05/2000</DatExp> -->
+                <!-- <DatNsc>21/04/1990</DatNsc> -->
+                <!-- <LocNsc>TOLEDO</LocNsc> -->
+                <!-- <EstNsc>PR</EstNsc> -->
+                <!-- <EndSoc> -->
+                    <!-- <![CDATA[PRACA DOS TRES PODERES]]> -->
+                <!-- </EndSoc> -->
+                <!-- <NenSoc>155</NenSoc> -->
+                <!-- <CplEnd>Casa</CplEnd> -->
+                <!-- <BaiSoc> -->
+                    <!-- <![CDATA[ZONA CIVICOADMINISTRATIVA]]> -->
+                <!-- </BaiSoc> -->
+                <!-- <CidSoc>BRASILIA</CidSoc> -->
+                <!-- <SigUfs>DF</SigUfs> -->
+                <!-- <CepSoc>70160900</CepSoc> -->
+                <!-- <FonCe1></FonCe1> -->
+                <!-- <FonRes></FonRes> -->
+                <!-- <FonCe2></FonCe2> -->
+                <!-- <IntNet> -->
+                    <!-- <![CDATA[mariaaparecida@email.com]]> -->
+                <!-- </IntNet> -->
+                <!-- <NomCon>Cônjuge</NomCon> -->
+                <!-- <CpfCon>55551637034</CpfCon> -->
+                <!-- <NscCon>03/05/1988</NscCon> -->
+                <!-- <PosPro>N</PosPro> -->
+                <!-- <ValPro></ValPro> -->
+                <!-- <RegBem>2</RegBem> -->
+                <!-- <NomCra></NomCra> -->
+                <!-- <QuaNeg>N</QuaNeg> -->
+                <!-- <TipDoc>0</TipDoc> -->
+                <!-- <PaiNsc>Brasileiro</PaiNsc> -->
+                <!-- <EstCiv>2</EstCiv> -->
+            <!-- </line> -->
+        <!-- </Socios> -->
+        <!-- <ApeCli> -->
+            <!-- <![CDATA[MARIA APARECIDA MEI]]> -->
+        <!-- </ApeCli> -->
+        <TipCor>1</TipCor>
+        <!-- <GerCtr isnull='1'/> -->
+        <!-- <DatCtr isnull='1'/> -->
+        <!-- <HorCtr>0</HorCtr> -->
+        <!-- <UsuCtr>0</UsuCtr> -->
+        <!-- <SigUfs>DF</SigUfs> -->
+        <!-- <CidCli>BRASILIA</CidCli> -->
+        <!-- <UsuGer>0</UsuGer> -->
+        <!-- <CodMun>55009504</CodMun> -->
+    <!-- </params> -->
+<!-- </request> -->

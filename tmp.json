@@ -1,0 +1,66 @@
+{
+   "load": {
+      "url": "HubPedidoVendaItem/{id}"
+   },
+   "elements": {
+      "cabecalho": {
+         "type": "card",
+         "label": "Dados",
+         "elements": {
+            "hubProdutoSKU": {
+               "label": "Variação",
+               "type": "entity",
+               "entity": "HubProdutoSKU",
+               "space": 6
+            }
+         }
+      },
+      "totais": {
+         "type": "card",
+         "label": "Totais",
+         "elements": {
+            "quantidade": {
+               "label": "Quantidade",
+               "type": "number",
+               "space": 6
+            },
+            "valorUnitario": {
+               "label": "Valor Unitário",
+               "type": "money",
+               "space": 6
+            },
+            "valorDesconto": {
+               "label": "Valor Desconto",
+               "type": "money",
+               "space": 6
+            },
+            "valorTotal": {
+               "label": "Valor Total",
+               "type": "money",
+               "space": 6
+            }
+         }
+      },
+      "buttons": {
+      "type": "buttons",
+      "elements": {
+         "close": {
+            "type": "button",
+            "label": "Fechar",
+            "click": {
+               "action": "close"
+            }
+         },
+         "save": {
+            "type": "button",
+            "label": "Salvar",
+            "click": {
+               "url": "HubPedidoVendaItem/{id}",
+               "validate": true,
+               "method": "PUT"
+            }
+         }
+      }
+   }
+   }
+}

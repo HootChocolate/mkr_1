@@ -1,0 +1,20 @@
+select id from mkr_hub_ped_venda where numero = 'PED01015' --1215
+select id from mkr_hub_pedido_venda_compl where id_hub_pedido_venda = 1215 -- 1597
+delete from mkr_hub_pedido_venda_compl where id = 1597
+select id from mkr_hub_ped_venda_pgto where id_hub_ped_venda = 1215
+delete from mkr_hub_ped_venda_pgto where id = 998
+select id from mkr_hub_ped_venda_item where id_hub_ped_venda = 1215 -- 5971
+
+select id from mkr_hub_ped_venda_item_compl where id_hub_pedido_venda_item = 5971 -- 3067
+delete from mkr_hub_ped_venda_item_compl where id = 3067
+
+select id from mkr_hub_ped_venda_entrega where id_hub_ped_venda = 1215
+delete from mkr_hub_ped_venda_entrega where id = 823
+
+
+select id_hub_pedido_venda_entrega from mkr_ped_venda_entrega_retirada where id_hub_pedido_venda_entrega = 22
+delete from mkr_ped_venda_entrega_retirada where id_hub_pedido_venda_entrega = 823
+delete from mkr_venda_vinculo where id_hub_ped_venda_item = 5971 
+select * from mkr_extrato_bonificacao meb where id_hub_pedido_venda = 1215
+delete from mkr_hub_ped_venda where numero = 'PED01015'
+

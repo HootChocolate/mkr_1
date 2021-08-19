@@ -1,0 +1,76 @@
+{
+   "info":{
+      "_postman_id":"83cbca43-2742-4c13-9620-d0607b0ff44d",
+      "name":"GetNet",
+      "schema":"https:\/\/schema.getpostman.com\/json\/collection\/v2.0.0\/collection.json"
+   },
+   "item":[
+      {
+         "name":"Token",
+         "_postman_id":"a389bcff-11a3-4d10-aaf6-da728b13f91f",
+         "protocolProfileBehavior":{
+            "disabledSystemHeaders":{
+               "accept":true
+            }
+         },
+         "request":{
+            "method":"POST",
+            "header":[
+               {
+                  "key":"Authorization",
+                  "value":"Basic NzdlN2ZhNmItMDc1NS00YTdjLTllMGMtMmZkZGU0MjcyMzI2OjQwZWNkYWUzLTMxMmMtNGVmYi05YmQ1LTliMjdlNDQxZjVjOA==",
+                  "type":"text"
+               },
+               {
+                  "key":"Accept",
+                  "value":"application\/json, text\/plain, *\/*",
+                  "type":"text"
+               },
+               {
+                  "key":"Content-Type",
+                  "value":"application\/x-www-form-urlencoded",
+                  "type":"text"
+               }
+            ],
+            "body":{
+               "mode":"urlencoded",
+               "urlencoded":[
+                  
+               ]
+            },
+            "url":{
+               "raw":"https:\/\/api-sandbox.getnet.com.br\/auth\/oauth\/v2\/token?scope=oob&grant_type=client_credentials",
+               "protocol":"https",
+               "host":[
+                  "api-sandbox",
+                  "getnet",
+                  "com",
+                  "br"
+               ],
+               "path":[
+                  "auth",
+                  "oauth",
+                  "v2",
+                  "token"
+               ],
+               "query":[
+                  {
+                     "key":"scope",
+                     "value":"oob"
+                  },
+                  {
+                     "key":"grant_type",
+                     "value":"client_credentials"
+                  }
+               ]
+            }
+         },
+         "response":[
+            
+         ]
+      }
+   ],
+   "protocolProfileBehavior":{
+      
+   }
+}

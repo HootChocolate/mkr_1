@@ -1,0 +1,91 @@
+<html>
+    <head>
+        <meta charset="utf-8"></meta> 
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"></meta> 
+    </head>
+    <body style="width: 100%;font-family: Roboto, Helvetica, Arial, sans-serif;font-size: 13px;" >
+        <div style="background: #dedede;color: #fff;text-align: center;">
+            <div style="background: #1E538F;border-bottom: 5px solid #D20400;height: 110px;padding-top: 50px">
+                <div style="max-width: 600px;margin: auto;background: #fff;border-radius:  10px 10px 0 0;">
+                    <div style="background: #fff;height: 125px;border-radius: 10px;background-image: url(https://storage.googleapis.com/interpennweb-storage/email/images/logo_transparente.png)">
+                        <table style="width: 100%;padding: 20px">
+                            <tr>
+                                <td width="30" height="30" ></td>
+                                <td style="text-align: center;margin: auto">
+                                    <img width="200" style="max-width: 100%" src="https://storage.googleapis.com/interpennweb-storage/email/images/logo_small.png"></img>
+                                </td>
+                                <td width="30" height="30" >
+                                    <div>
+                                        <a href="">
+                                            <img width="30" height="30"  src="https://storage.googleapis.com/interpennweb-storage/email/images/email_face.png"></img>
+                                        </a>
+                                    </div>
+                                    <div style="margin-top: 10px">
+                                        <a href="">
+                                            <img width="30" height="30"  src="https://storage.googleapis.com/interpennweb-storage/email/images/email_insta.png"></img>
+                                        </a>
+                                    </div>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <div style="max-width: 600px;margin: auto;background: #fff;border-radius:  10px 10px 0 0;">
+                <div style="color: #555;padding: 20px 0;">
+                    <h2 style="color: #1E538F">Olá, #{utils.firstName(pessoa.nome)}!</h2>
+                    <div style="padding-left: 50px;padding-right: 50px;color: #888;font-size: 16px">
+                        {conteudo}
+                    </div>
+                    <div style="padding-left: 50px;padding-right: 50px;color: #1E538F">
+                        <div style="margin: 50px 20px"  rendered="#{not empty @this.link}">
+                            <a href="#{@this.link.url }" style="color: #fff;background: #1E538F;padding: 10px 20px;border-radius: 5px;text-decoration: none;font-weight: bold;font-size: 15px;">#{@this.link.label ? @this.link.label : 'Acesse aqui' }</a>
+                        </div>
+                        <b>Problemas ou dúvidas ligue para</b> 
+                        <h2>0800 1234 4321</h2>
+                    </div>
+                </div> 
+
+            </div>
+            <div style="background: #0A4C96;border-top: 5px solid #D20400;height: 200px;">
+                <div style="max-width: 600px;margin: auto;background: #dedede;height: 120px;border-radius: 0 0 10px 10px;">
+                    <table style="width: 100%;padding: 20px;">
+                        <tr>
+                            <td width="30" height="30" >
+                                <div>
+                                    <a href="">
+                                        <img width="30" height="30"  src="https://storage.googleapis.com/interpennweb-storage/email/images/email_face.png"></img>
+                                    </a>
+                                </div>
+                                <div style="margin-top: 10px">
+                                    <a href="">
+                                        <img width="30" height="30"  src="https://storage.googleapis.com/interpennweb-storage/email/images/email_insta.png"></img>
+                                    </a>
+                                </div>
+                            </td>
+                            <td style="text-align: center;margin: auto;padding:  0 0">
+                                <img width="250" src="https://storage.googleapis.com/interpennweb-storage/email/images/logo-colorida.png"></img>
+                            </td>
+                            <td width="30" height="30" >
+                                <div>
+                                    <a href="">
+                                        <img width="30" height="30"  src="https://storage.googleapis.com/interpennweb-storage/email/images/email_face.png"></img>
+                                    </a>
+                                </div>
+                                <div style="margin-top: 10px">
+                                    <a href="">
+                                        <img width="30" height="30"  src="https://storage.googleapis.com/interpennweb-storage/email/images/email_insta.png"></img>
+                                    </a>
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <div style="padding: 20px;color: #fff !important;font-size: 11px">
+                    Os <a href="https://www.google.com" style="color: #fff !important">Termos de vendas</a> estão acessíveis aqui.<br/>
+                    Consulte nossa <a href="https://www.google.com" style="color: #fff !important">Política de privacidade</a> para mais informações
+                </div>
+            </div>
+        </div>
+    </body> 
+</html> 
