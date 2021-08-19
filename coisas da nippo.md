@@ -1,3 +1,4 @@
+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
 ## Tarefas de graduação:
 https://makertec.atlassian.net/browse/INT-662
   (30% Herança, 1 vez errado)
@@ -199,5 +200,8 @@ compra da energy, favorito, troca modelo, remove venda futura, entrega pac
 ## Procurar um pedido que tenha iten sobMedida e ver se foi como venda futura
 ### Pagamento acima de 7500, distribuindo SPV;
 ### Rever cadastro consultor - Apagar algumas sequences - Lote ars é obrigatório quando não tem kithash;
+
+
+
 
 
